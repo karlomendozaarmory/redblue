@@ -4,4 +4,4 @@ threadsafe: true
 
 handlers:
 - url: /.*
-  script: https://github.com/karlomendozaarmory/appengine/main.app
+  script: karlomendozaarmory/appengine/main.app
