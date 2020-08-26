@@ -1,0 +1,34 @@
+{
+  "clusters": [
+    {
+      "account": "my-appengine-account",
+      "application": "appenginetest",
+      "branch": "master",
+      "cloudProvider": "appengine",
+      "configArtifacts": [
+        {
+          "artifact": {
+            "artifactAccount": "github-for-terraform",
+            "id": "ab4aac91-af2e-4fdf-b15f-e9c79cbe569a",
+            "name": "app.yaml",
+            "reference": "https://api.github.com/repos/armory-io/redblue/contents/app.yaml",
+            "type": "github/file",
+            "version": "master"
+          }
+        }
+      ],
+      "configFiles": [],
+      "fromArtifact": false,
+      "gitCredentialType": "HTTPS_GITHUB_OAUTH_TOKEN",
+      "interestingHealthProviderNames": [],
+      "promote": true,
+      "provider": "appengine",
+      "region": "us-central",
+      "repositoryUrl": "https://github.com/karlomendozaarmory/appengine.git",
+      "sourceType": "git",
+      "stack": "nginx"
+    }
+  ],
+  "name": "Deploy",
+  "type": "deploy"
+}
